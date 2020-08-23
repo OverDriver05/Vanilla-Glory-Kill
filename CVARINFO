@@ -1,0 +1,8 @@
+server float sv_staggerhealth   = 0.50;
+server float sv_glorykillrange  = 128;
+server int   sv_staggerlength   = 140;
+server int   sv_glorykillhealth = 2;
+server int   sv_glorystunchance = 80;
+server float sv_outdamagemod    = 0.50;
+server float sv_indamagemod     = 1.00;
+server bool  sv_glorykilldrops  = true;
