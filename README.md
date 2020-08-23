@@ -6,6 +6,7 @@ Ever wonder what happens if DOOM (2016) was instead released back in 1994? The "
 
 # Milestone Goals of "Vanilla Glory Kill"
 * Adds Basic Glory Kills
+* Adds Glory Kill shader and effects
 * Adds Quick Glory Kill option for the Chainsaw
 * Expands Glory Kill options, as well as adding more Glory Kills for specific Demon types
 * Adds Weapon-Specific Glory Kills
