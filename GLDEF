@@ -1,0 +1,11 @@
+pointlight GloryLight
+{
+    color 2.0 0.4 0.2
+    size 16
+	offset 0 16 0
+}
+
+object ShadedActor_Light
+{	
+	frame TNT1 { light GloryLight }
+}
