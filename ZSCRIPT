@@ -1,0 +1,5 @@
+version 3.5
+
+#include "Scripts/ggk_items.zs"
+#include "Scripts/ggk_weapons.zs"
+#include "Scripts/ggk_events.zs"
