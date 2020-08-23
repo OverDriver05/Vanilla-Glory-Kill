@@ -1,0 +1,49 @@
+AddOptionMenu "OptionsMenu"
+{
+	Submenu    "Vanilla Glory Kill"      , "GloryKillMenu"
+}
+
+OptionMenu "GloryKillMenu"
+{
+	Title "Glory Kill Options"
+	ScrollTop 2
+	StaticText " "
+	StaticText "Control(s)", "Yellow"
+	Control	   "Glory Kill"					 , "netevent glory_kill"
+	StaticText "Press this button when an enemy is staggered","Black"
+	StaticText "to initiate Glory Kill.","Black"
+	StaticText "Configure", "Yellow"
+	Option "Drop Health bonuses", "sv_glorykilldrops", "YesNo"
+	Slider "Health bonus amount", "sv_glorykillhealth", 1, 25, 1, 0
+	StaticText " "
+	Slider "Stagger chance", "sv_glorystunchance", 0, 100, 1, 0
+	StaticText " Percent chance to stagger enemy", "Black"
+	StaticText " "
+	Slider "Stagger health", "sv_staggerhealth", 0, 1.0, 0.01, 2
+	StaticText "Minimum health required for enemy to stagger", "Black"
+	StaticText " - Formatted as percentage - ","Black"
+	StaticText "	1.0 = Always stagger","Black"
+	StaticText "	0   = Never stagger","Black"
+	StaticText " "
+	Slider "Stagger length (tics)",	"sv_staggerlength", 35, 2100, 35, 0
+	StaticText "Moves in increments of 1 second", "Black"
+	StaticText "Default - 140", "Black"
+	StaticText " "
+	Slider "Glory Kill range (units)",	"sv_glorykillrange", 2, 1024, 1, 0
+	StaticText "Minimum distance required to activate Glory Kill.", "Black"
+	StaticText " "
+	StaticText " "
+	Slider "Incomming damage modifier",	"sv_indamagemod", 0.0, 100.0, 0.25, 2
+	StaticText "Multiply damage taken by this factor", "Black"
+	Slider "Outgoing damage modifier",	"sv_outdamagemod", 0.0, 100.0, 0.25, 2
+	StaticText "Multiply damage done by this factor", "Black"
+	StaticText " "
+}
+
+
+OptionValue "YesNo"
+{
+	0,"No"
+	1,"Yes"
+}
+
