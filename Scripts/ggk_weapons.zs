@@ -119,7 +119,7 @@ class GloryFist : Weapon
 		PlayerInfo plr = PlayerPawn(self).player;
 		A_PlaySound("fht1",0);
 		A_Quake(5,3,0,10,"");
-		A_CustomPunch(1,true,0,"NewBulletPuff",64,0,0,"","none");
+		A_CustomPunch(1,true,0,"BulletPuff",64,0,0,"","none"); 
 		if(invoker.ptarget && kill) invoker.ptarget.A_Die("GloryKill");
 		//plr.mo.ViewBob *= 1;
 	}	
