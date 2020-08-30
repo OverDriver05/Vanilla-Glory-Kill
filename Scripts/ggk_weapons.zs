@@ -103,7 +103,7 @@ class GloryFist : Weapon
 	action void A_GloryPunch(bool kill = false)
 	{	
 		A_Quake(3,3,0,10,"");
-		A_CustomPunch(0,true);
+		A_CustomPunch(1,true,0,"BulletPuff",64,0,0,"","none"); 
 		if(invoker.ptarget && kill) 
 		{
 			invoker.ptarget.A_Die("GloryKill");
