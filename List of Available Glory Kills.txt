@@ -1,0 +1,25 @@
+The following are the list of Glory Kills available in "Vanilla Glory Kill"
+====
+LEGEND:
+[NGK]: Normal Glory Kill, executable when staggered. Glory Kill varies per enemy type.
+[QGK]: Quick Glory Kill, available only for the Chainsaw.
+[WGK]: Weapon-based Glory Kill, executable when staggered and equipped with a specified weapon. Uses ammo when executed.
+[BGK]: Boss Glory Kill, executable when staggered. Only available with specific enemy types.
+[AV]: This Glory Kill is available.
+====
+MEELE
+* [AV][NGK] A quick 2-hit left-right hook combo (Idea by OverDriver05)
+* [NGK] A 2-hit left-right hook combo, followed by a right foot kick (Idea by OverDriver05)
+* [NGK] A quick 2-hit left-right hook combo, followed by an uppercut (Idea by OverDriver05)
+* [NGK] Ripping the enemy in half with both hands (Idea by OverDriver05)
+* [NGK] A left hook , followed by a right hand slam (Idea by OverDriver05)
+* [NGK] Delivering a right foot kick while ripping the enemy in half with both hands (Idea by OverDriver05)
+* [NGK] An uppercut, followed by a right foot kick (Idea by OverDriver05)
+* [NGK] A right hook, followed by a roundhouse kick from the right (Idea by OverDriver05) 
+* [NGK] Delivering a double-foot kick while ripping the enemy in half with both hands (Idea by OverDriver05)
+* [NGK] A quick 2-hit left-right hook combo, followed by a straight punch (Idea by OverDriver05)
+* [NGK] An uppercut, followed by a roundhouse kick from the right (Idea by OverDriver05) 
+* [NGK] 
+* [NGK] 
+* [NGK] 
+* [NGK]
