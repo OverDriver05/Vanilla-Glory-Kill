@@ -171,3 +171,4 @@ class GloryFist : Weapon
 			PONG CCB 1;
 		Goto Done;
 	}
+}
