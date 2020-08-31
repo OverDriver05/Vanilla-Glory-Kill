@@ -141,7 +141,7 @@ class GloryFist : Weapon
                         TNT1 A 0 A_Jump(64,"AltKill");
 			TNT1 A 0 A_Jump(96,"AltKill2");
 			TNT1 A 0 A_WeaponOffset(-20,60);
-			PONG BCC 1;
+			PONG BCCD 1;
 			PONG D 2 A_GloryPunch();
 			PONG DD 1 
 			{	
@@ -154,9 +154,9 @@ class GloryFist : Weapon
 				A_SetRoll(roll-1.25,SPF_INTERPOLATE);
 			}
 			TNT1 A 0 A_WeaponOffset(-20,60);
-			PONG CCB 2;
+			PONG DCCB 2;
 			TNT1 A 0 A_ToggleFlip();
-			PONG BCC 1;
+			PONG BCCD 1;
 			PONG D 1 A_GloryPunch(true);
 			PONG DD 1 
 			{	
@@ -168,7 +168,7 @@ class GloryFist : Weapon
 				A_WeaponOffset(30/5,32/5,WOF_ADD | WOF_INTERPOLATE);
 				A_SetRoll(roll+1.25,SPF_INTERPOLATE);
 			}
-			PONG CCB 1;
+			PONG DCCB 1;
 		Goto Done;
 	}
 }
