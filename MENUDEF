@@ -13,11 +13,11 @@ OptionMenu "GloryKillMenu"
 	StaticText "Press this button when an enemy is staggered","Black"
 	StaticText "to initiate Glory Kill.","Black"
 	StaticText "Configure", "Yellow"
-	Option "Drop Health bonuses", "sv_glorykilldrops", "YesNo"
-	Slider "Health bonus amount", "sv_glorykillhealth", 1, 25, 1, 0
+	Option "Drop Health/Armor/Ammo bonuses", "sv_glorykilldrops", "YesNo"
+	Slider "Amount of Health/Armor/Ammo Bonus", "sv_glorykillhealth", 1, 25, 1, 0
 	StaticText " "
 	Slider "Stagger chance", "sv_glorystunchance", 0, 100, 1, 0
-	StaticText " Percent chance to stagger enemy", "Black"
+	StaticText " % chance to stagger enemy", "Black"
 	StaticText " "
 	Slider "Stagger health", "sv_staggerhealth", 0, 1.0, 0.01, 2
 	StaticText "Minimum health required for enemy to stagger", "Black"
